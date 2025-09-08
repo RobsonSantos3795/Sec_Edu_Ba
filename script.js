@@ -58,4 +58,5 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = createLinkCard(dashboard);
         dashboardLinksContainer.appendChild(card);
     });
+
 });
