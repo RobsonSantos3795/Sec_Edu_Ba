@@ -1,10 +1,10 @@
 :root {
     --azul-marinho: #dee4ee;
-    --azul-escuro: #1e4691;
+    --azul-escuro: #1e8091;
     --azul-bebe: #f5faff;
     --branco-gelo: #F0F4F8;
     --laranja-detalhe: #FF7F50;
-    --rosa-detalhe: #e0883f;
+    --rosa-detalhe: #e7ca22;
 }
 
 * {
@@ -156,3 +156,4 @@ footer {
     }
 
 }
+
