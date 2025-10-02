@@ -38,6 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Dashboard Diretoria Financeira - Termo de Colaboração MROSC',
             description: 'Prestação de contas da Diretoria Financeira.', 
             url: 'https://app.powerbi.com/view?r=eyJrIjoiZjM5MDhiYjEtMWVhZS00M2NlLWFhMzctMmQ3NjNhOWJmZGFmIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9'
+        },
+        {
+            name: 'Dashboard Diretoria Geral - Mapeamento de Processos Sei',
+            description: 'Mapeamento de Processo, tendo como base total do período de dias na unidade.', 
+            url: 'https://app.powerbi.com/view?r=eyJrIjoiOTE5MTNiMGUtODA0NS00MWIyLWFkZGQtNmE4NzUzYzg5N2Q1IiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9'
         }
     ];
 
@@ -60,3 +65,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
