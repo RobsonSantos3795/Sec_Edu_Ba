@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text.css" href="style.css">
+    <link rel="icon" type="image/png" href="img/GOV-LOGO.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Login - Secretária da Educação</title>
+    <style>
+        img {
+            margin-left: -20px;
+            display: flex;
+        }
+        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #f4f4f4; }
+        .login-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; text-align: center; }
+        input { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%; margin-top: 10px; }
+        .message { color: red; margin-top: 10px; }
+        a { display: block; margin-top: 15px; color: #007bff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img src="img/GOV-LOGO.png"></img>
+        <h2>Entrar no Sistema</h2>
+        <input type="email" id="login-email" placeholder="E-mail" required>
+        <input type="password" id="login-senha" placeholder="Senha" required>
+        
+        <button onclick="fazerLogin()">Entrar</button>
+        
+        <p class="message" id="login-mensagem"></p>
+
+        <a href="cadastro.html"></a>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
