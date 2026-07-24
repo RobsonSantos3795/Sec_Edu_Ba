@@ -58,7 +58,7 @@ function fazerCadastro() {
 }
 
 
-function fazerLogin() {
+const fazerLogin = () => {
     // ... (Código da função fazerLogin do passo anterior)
     const email = document.getElementById('login-email').value;
     const senha = document.getElementById('login-senha').value;
@@ -83,6 +83,14 @@ function fazerLogin() {
             console.error(error);
         });
 }
+
+document.getElementById("fazerLogin").addEventListener("click", fazerLogin);
+
+document.getElementById("login-senha").addEventListener("keyup", (e) => {
+    if(e.key === "Enter") {
+        fazerLogin();
+    }
+})
 
 
 function fazerLogout() {
